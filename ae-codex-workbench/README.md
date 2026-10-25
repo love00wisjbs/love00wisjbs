@@ -10,6 +10,9 @@
 - [自有 skill 清单与精简记录](docs/skills-catalog.md)
 - [管理与优化工具比较](docs/skills-management.md)
 - [只读技能检查工具与能力维护](docs/capability-maintenance.md)
+- [AE 作业视听脚本与制作策划](docs/creative-assignment.md)
+- [动画技巧、排比与艺术判断](skills/after-effects-windows/references/motion-art.md)
+- [本轮失误、有效做法与改进记录](docs/retrospective.md)
 
 下一次可直接说：
 > 阅读 love00wisjbs/love00wisjbs 仓库 ae-codex-workbench/README.md 和 docs/verification.md，接着做 Windows AE 验收。不要假设已经安装或运行。

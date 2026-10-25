@@ -1,6 +1,6 @@
 ---
 name: after-effects-windows
-description: Use when Adobe After Effects tasks involve JSX, ExtendScript, keyframes, expressions, Windows, AE MCP, Nexrender, Lottie, or phone-to-desktop handoff.
+description: Use when Adobe After Effects tasks involve storyboards, motion design, JSX, ExtendScript, keyframes, expressions, Windows, AE MCP, Nexrender, Lottie, or phone-to-desktop handoff.
 ---
 
 # Portable After Effects
@@ -19,6 +19,7 @@ Phone/cloud prepares files; installed desktop AE executes them. Report generatio
 
 |Task|Read / use|
 |---|---|
+|Storyboards / visual rhythm|Read [creative choices, parallelism and review](references/motion-art.md)|
 |Keyframes / easing|Read [corrected API rules](references/keyframes.md) before coding|
 |Interactive / batch / web|Read [MCP, Nexrender, Lottie routing and sources](references/workflows.md)|
 |First edit|AE menu → Run Script File: [slide example](scripts/slide-selected.jsx); rejects animated inputs and reruns|
