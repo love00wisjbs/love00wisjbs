@@ -7,6 +7,8 @@
 - [Codex 额度刷新提醒方案](docs/quota-reminders.md)
 - [当前验证与待办](docs/verification.md)
 - [关键帧规则纠错](skills/after-effects-windows/references/keyframes.md)
+- [自有 skill 清单与精简记录](docs/skills-catalog.md)
+- [管理与优化工具比较](docs/skills-management.md)
 
 下一次可直接说：
 > 阅读 love00wisjbs/love00wisjbs 仓库 ae-codex-workbench/README.md 和 docs/verification.md，接着做 Windows AE 验收。不要假设已经安装或运行。
