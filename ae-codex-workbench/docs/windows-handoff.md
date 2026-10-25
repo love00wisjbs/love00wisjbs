@@ -37,4 +37,6 @@ Codex 等支持 Agent Skills 的客户端可将 `skills/after-effects-windows` �
 
 ## 接续记录
 
+首次测试可直接填写 [Windows 实机验收记录](windows-acceptance.md)，其中所有项默认待执行，不要预先勾选通过。
+
 下一会话记录：GitHub commit、AE/Windows 版本、客户端、项目与素材根目录、已通过的用例、日志/截图/帧路径、剩余项。素材用本地清单映射；不要提交大体积 AEP、私人素材或账号凭据。
