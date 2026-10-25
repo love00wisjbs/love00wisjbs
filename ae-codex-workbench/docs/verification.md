@@ -42,3 +42,13 @@
 保留旧版独立快照后，分别用旧版与新版完成同一组3个检索/应用场景：A主机边界、关键帧数组/范围及setValue；B未知派发、空选择、撤销边界；C工具路由、动画重跑、渲染检查。两个独立样本均正确覆盖三组场景，未发现实质规则缺失；这是一轮定性回归检查，不是统计基准或证明模型效果提高。新版审阅同时运行代码全套测试12/12通过。
 
 已读取 Skills Manager、Vercel skills、OpenSkills、Agent Skills skills-ref、Anthropic skill-creator 的README/相关说明及元数据；Context7 核对 Vercel CLI 的本地安装、按客户端选择、copy模式与只查更新语法。已核实 Skills Manager v1.43.0 的 Windows 发行包存在，未执行安装器。插件目录仅找到相关已安装的 Superpowers / Plugin Creator，没有确认可直接在手机 ChatGPT 管技能库的专用插件。详见 skills-management.md；本次未执行任何第三方安装、全局技能更新、删除或自动备份授权。
+
+## 自主补齐：只读盘点工具
+
+用户进一步授权自行识别能力缺口。选取此前重复的盘点、尺寸与引用检查，新增 tools/audit-skills.cjs，不安装第三方依赖、不添加新 skill。目标及边界见 docs/superpowers/plans/2026-10-25-skill-audit.md。
+
+先观察到缺少 auditor 实现的测试失败，再实现扫描器；随后全套21/21通过（原12项保留，新增9项）。临时fixture覆盖有效技能、不修改原文件、缺失目标、重复名/内容、长入口、复杂metadata警告、根目录之外的引用、依赖目录/符号链接跳过、无效目录和CLI结果码。当前实际资料扫描发现1个技能，264词、2306字节、issues为空。
+
+这些结果只证明当前文件与契约检查，不是完整YAML规范验证、技能效果评价或Windows实机结果；Node子进程测试在当前云环境运行。使用说明与限制见 capability-maintenance.md。
+
+独立审阅复现了两个误报：把代码示例识别成链接，以及截断括号文件名。添加两个回归后先看到失败，再跳过代码片段并把不支持的括号目标降为人工复核；全套最终23/23通过。没有将轻量扫描器扩展成完整Markdown解析器。
