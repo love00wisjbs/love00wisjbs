@@ -30,3 +30,14 @@
 
 ## Windows 接续
 `git clone https://github.com/love00wisjbs/love00wisjbs.git` 后进入 `ae-codex-workbench`；草稿 PR #1 尚未合并时，查看 PR 文件或切换 `chore/ae-maintenance-baseline-20261027` 分支。先读 `README.md`、`docs/verification.md`、`docs/windows-handoff.md` 和本文件。未经实际运行不得宣称 AE 验收通过。
+
+## 2026-10-28 轻量增量检查
+- 开始：2026-10-28 20:34:50（北京时间，运行上下文）；完成差异核查并写入检查点：2026-10-28T12:36:05.220Z（UTC）；任务最终结束时间以运行记录为准。
+- 额度：当前环境无法可靠读取 5 小时/每周剩余额度；未切换或声称切换模型，按保守轻量模式处理。
+- 主分支 HEAD：`780d92fdadbb76338dbfb66022313f23f8969a9d`；与上一轮一致。自 AE 基线以来唯一主分支新增文件为 `digital-media-research/LAST_CHECK.md`，不属于 AE 功能变更。
+- 3 个上游（`aedev-tools/adobe-agent-skills`、`docsforadobe/after-effects-scripting-guide`、`23d1/after-effects-mcp`）自 2026-10-27 12:36 UTC 以来无新提交。
+- Adobe 官方截至本轮仍显示 After Effects 26.5（2026-09 发布）；官方已知问题页面最近更新于 2026-10-07，早于上一轮，不是本轮新增。
+- 本仓库无开放普通 Issue；草稿 [PR #1](https://github.com/love00wisjbs/love00wisjbs/pull/1) 仍开放、未合并、无新评论或审阅。
+- 本轮变更：只追加此检查记录；未修改 AE Skill、JSX、表达式、版本号或 Windows 接续文档。没有相关代码变化，故未重跑 Node/AE 测试；历史 23/23 Node 模拟测试不计为本轮结果。
+- 遗留：PR #1 待审阅；Windows AE 实机验收未完成；6 张关键静帧与 15 秒动态草稿未生成。下轮继续比较 main/上游 HEAD、Issues/PR、已知缺陷与 Windows 验收反馈，无变化则简报。
+- Windows 接续：从本 PR 分支读取 `ae-codex-workbench/README.md`、`docs/windows-handoff.md`、`docs/verification.md` 和本文件。数媒任务只读此检查点，勿并发修改 AE 工作区。
