@@ -52,3 +52,15 @@
 - 结果：无值得整合的新变化；未修改 AE Skill、JSX、表达式或版本号；本轮未运行 Node 测试、Windows AE 实机测试。历史 23/23 模拟测试仍仅为历史证据。
 - 实际修改：只追加本次维护检查点；PR #1 继续保持 Draft，未合并。Windows AE 实机验收、6 张关键静帧和 15 秒动态草稿仍待办。
 - 下轮起点：以本条时间和上述 HEAD 为基线，只查新增提交、Issues/PR 反馈和 Windows 验收结果；无变化立即简报。Windows 接续仍读取 `README.md`、`docs/windows-handoff.md`、`docs/verification.md` 和本文件；数媒任务只读 AE 工作区，避免并发写入。
+
+## 2026-10-30 轻量增量检查
+- 开始：2026-10-30 20:27:38（北京时间，任务运行上下文）；完成本次差异核查及记录：2026/10/30 20:28:13（北京时间，写入前时间）；实际最终结束时间以任务记录为准。
+- 额度/模型：无法可靠读取 5 小时及每周剩余额度，无法验证专用模型切换；按保守轻量模式，仅一次检查，不进行额外轮询。
+- 主分支 HEAD：`780d92fdadbb76338dbfb66022313f23f8969a9d`，相对上次不变，无新增 AE 功能提交。
+- 三个上游 `aedev-tools/adobe-agent-skills`、`docsforadobe/after-effects-scripting-guide`、`23d1/after-effects-mcp`：自 2026-10-29T12:31:09Z 后无新提交。
+- Adobe 官方发行说明（https://helpx.adobe.com/after-effects/desktop/what-s-new/release-notes-after-effects.html）：当前仍列 2026 年 9 月版 AE 26.5，页面标注 2026-09-09 更新；未见新增正式版本。
+- 本仓库开放普通 Issue 0；草稿 PR #1 仍开放未合并，自上一轮后无新评论或审阅。
+- 本轮新增/修复/功能代码变更：均无。仅追加本检查点，不修改 AE Skill、JSX、表达式、版本号、独立 CHANGELOG/TODO；本文件同时记录 CHANGELOG/TODO。
+- 本轮未运行 Node 测试和 Windows AE 实机测试；历史 23/23 模拟测试仅为历史记录。
+- 遗留：PR #1 待审阅、Windows AE 实机验收、6 张关键静帧和 15 秒动态草稿。
+- 下轮起点：以本次检查时间和上述主分支/上游 HEAD 为基线，只检查后续差异与验收反馈；无变化即简报。Windows 从 PR #1 分支读取 `README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；数媒任务只读此文件，避免并发写入。
