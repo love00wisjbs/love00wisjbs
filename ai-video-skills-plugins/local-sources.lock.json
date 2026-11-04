@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-04",
+  "review_type": "static-content-review",
+  "files": [
+    {
+      "path": "vendor/manim/LICENSE",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "LICENSE",
+      "git_blob_sha": "9cb10fedee131dd19b41ecc85f5448a872cdcc7b",
+      "sha256": "c02371d11efe3579c38db2bb73258f939cc74ecd729d69128ad3c65c4138b009"
+    },
+    {
+      "path": "vendor/manim/skills/manim-composer/SKILL.md",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "skills/manim-composer/SKILL.md",
+      "git_blob_sha": "aefb1fd04f557ee19b84a96d50494a5fedd750a0",
+      "sha256": "79e7c224fa8912f3e26897aa91252ab30996eddd1208c1128238057a7b89b176"
+    },
+    {
+      "path": "vendor/manim/skills/manim-composer/references/narrative-patterns.md",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "skills/manim-composer/references/narrative-patterns.md",
+      "git_blob_sha": "cbcc83386b1dd5a000f8c83bf9cbddc632b974d9",
+      "sha256": "fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656"
+    },
+    {
+      "path": "vendor/manim/skills/manim-composer/references/scene-examples.md",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "skills/manim-composer/references/scene-examples.md",
+      "git_blob_sha": "f7870e01ca7859242668e0ac6b2306f154b4ca08",
+      "sha256": "f147c92b48c6fffac71245f65baa00e92ece2d337d3a56382a8a60e9405d98fe"
+    },
+    {
+      "path": "vendor/manim/skills/manim-composer/references/visual-techniques.md",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "skills/manim-composer/references/visual-techniques.md",
+      "git_blob_sha": "723e40e7f9202f5049be26cbb44dc550d4a0915f",
+      "sha256": "98a493bced91a4aa821b72a059b4d9c3cdde62babccd9de27d50e176caabb052"
+    },
+    {
+      "path": "vendor/manim/skills/manim-composer/templates/scenes-template.md",
+      "repository": "adithya-s-k/manim_skill",
+      "commit": "cef045011722d285692e3381d12d4d637da56e18",
+      "upstream_path": "skills/manim-composer/templates/scenes-template.md",
+      "git_blob_sha": "d19d06b04f8ad56b2956e2f0916b25a117a3a8b1",
+      "sha256": "562da30cce06b37061aa0f83e19d7dfe96561bd0011ca90c8248d8b15d1ac7b9"
+    },
+    {
+      "path": "vendor/ffmpeg/LICENSE",
+      "repository": "digitalsamba/claude-code-video-toolkit",
+      "commit": "a50da9e7e78a162b58a4fb9e1c3a4008e831b8dc",
+      "upstream_path": "LICENSE",
+      "git_blob_sha": "09859d8077a8d3f22e13ef42afb0ebed1b1737fe",
+      "sha256": "873922e47d1d974a6417ee28e69a55e1d186910b1141f85d265b637b70f62c67"
+    },
+    {
+      "path": "vendor/ffmpeg/skills/ffmpeg/SKILL.md",
+      "repository": "digitalsamba/claude-code-video-toolkit",
+      "commit": "a50da9e7e78a162b58a4fb9e1c3a4008e831b8dc",
+      "upstream_path": ".claude/skills/ffmpeg/SKILL.md",
+      "git_blob_sha": "e2db21ad24174b1fed39f69600b1e9b4824e704a",
+      "sha256": "20a0c1e35a683a6bdb2ba978cb822b950b3ead5d638e84ef711e021e52711d06"
+    },
+    {
+      "path": "vendor/ffmpeg/skills/ffmpeg/reference.md",
+      "repository": "digitalsamba/claude-code-video-toolkit",
+      "commit": "a50da9e7e78a162b58a4fb9e1c3a4008e831b8dc",
+      "upstream_path": ".claude/skills/ffmpeg/reference.md",
+      "git_blob_sha": "6b317aeb60f4ff271df49904db6c81c15a219f29",
+      "sha256": "2dea49f4aa09cec01504399225bcdb0f6edb5f1099e3f10e27228a8ba32d3ac0"
+    }
+  ]
+}

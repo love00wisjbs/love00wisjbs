@@ -1,6 +1,6 @@
 # AI 视频生成 skills 与插件审查库
 
-用于存放经过静态审查的 AI 视频 skills、插件候选和版本记录。说明为中文，第三方 skill 保留原文。
+用于存放经过静态审查的 AI 视频 skills、插件候选和版本记录，覆盖云端生成、本地分镜、编程动画与剪辑后期。说明为中文，第三方 skill 保留原文。
 
 本目录收录静态审查通过的原版 skills，以及未通过或待进一步审查的插件候选记录。
 
@@ -11,6 +11,13 @@
 - [Runway 原版 skills](vendor/runway/skills/)：7 个 skills，按需选用。
 - [Runway MIT 许可证](vendor/runway/LICENSE)：随复制文件保留。
 - [MCP 配置示例](examples/runway-dev.mcp.json)：只有官方 HTTPS 地址，无密钥。
+
+## 本地制作补充
+
+- [Manim Composer](vendor/manim/skills/manim-composer/SKILL.md)：数学/科普讲解视频分镜；只规划，不负责渲染。
+- [FFmpeg skill](vendor/ffmpeg/skills/ffmpeg/SKILL.md)：本地剪辑、压缩、拼接、音频提取；作为操作参考收录，导出命令需要适配素材和软件版本。
+- [补充审查报告](docs/LOCAL-VIDEO-AUDIT-2026-11-04.md)：已收录范围、技术限制，以及 Remotion、Blender 等候选。
+- [本地工具来源清单](local-sources.lock.json)：独立记录提交和校验值。MIT 许可证分别位于 vendor/manim/LICENSE 与 vendor/ffmpeg/LICENSE。
 
 ## 使用
 
