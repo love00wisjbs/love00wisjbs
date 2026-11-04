@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-04",
+  "review_type": "static-content-review",
+  "runtime_tested": false,
+  "upstream": {
+    "repository": "https://github.com/runwayml/skills",
+    "commit": "6e98d3f3540705331acd748d75427f4bd7c90ce1",
+    "license": "MIT"
+  },
+  "files": [
+    {
+      "path": "vendor/runway/skills/runway-dev-characters/SKILL.md",
+      "upstream_path": "skills/runway-dev-characters/SKILL.md",
+      "git_blob_sha": "71fe6acc723156a3c8f50aeccc806436b0c88948",
+      "sha256": "492d79524d736eb4f51be25b44afd06539202ab3e0534b862e1809e66ce1400c"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev-model-routers/SKILL.md",
+      "upstream_path": "skills/runway-dev-model-routers/SKILL.md",
+      "git_blob_sha": "a612a5f2af35fac9371b497ed089d64661471993",
+      "sha256": "5b1231d796340f7cfc33f19417fc3c9e316468b57775c412e1220e6a566ead6e"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev-models/SKILL.md",
+      "upstream_path": "skills/runway-dev-models/SKILL.md",
+      "git_blob_sha": "e96f3e4151178f341353307159b353f55fd86643",
+      "sha256": "4a86018e032a532d6dd450800e00f1a59b27d145f3fe197e2c4800fe56a9fa95"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev-recipes/SKILL.md",
+      "upstream_path": "skills/runway-dev-recipes/SKILL.md",
+      "git_blob_sha": "691ab5f64baebe51c16877264a9542efa2d51c9c",
+      "sha256": "5158e88b8d6a2197f8f45ed6bb26752d5fd5f6b7d62df121450ca9231d0485b7"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev-setup/SKILL.md",
+      "upstream_path": "skills/runway-dev-setup/SKILL.md",
+      "git_blob_sha": "6588364dcb771f82bdc9b33bacddbcc4b46bd0a4",
+      "sha256": "3c024eab2e9f2e952b5651e30fb0e9ad6ff0c0fb36286e2f066fbcbca6386e91"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev-workflows/SKILL.md",
+      "upstream_path": "skills/runway-dev-workflows/SKILL.md",
+      "git_blob_sha": "a253328b22f5eca715dbb3cc1940b77d07bd8980",
+      "sha256": "ca2e6285ad579312a06023863ea2e351aac969eb413b84cf3dffccec71ecc6d1"
+    },
+    {
+      "path": "vendor/runway/skills/runway-dev/SKILL.md",
+      "upstream_path": "skills/runway-dev/SKILL.md",
+      "git_blob_sha": "867589c55860e8c725c984f7db317f377712ac28",
+      "sha256": "e990fec8e48f483438e75665328e9b111e33a0ffa61a2ccd9845234fefcf97f6"
+    },
+    {
+      "path": "vendor/runway/LICENSE",
+      "upstream_path": "LICENSE",
+      "git_blob_sha": "7aa33638ebecb2d20ac5ac9149eb30c617841a22",
+      "sha256": "b750583be43fe2a66cca86723989e902eb167888bc59414f730cd2a4306a74cc"
+    }
+  ]
+}
