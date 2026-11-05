@@ -127,3 +127,15 @@
 - 遗留：PR #1 审阅、Windows AE 实机验收、6 张关键静帧和 15 秒动态草稿。
 - 下轮起点：从 2026-11-04 20:28 北京时间和上述 HEAD 仅比较新提交、Issues/PR、官方资料变化和 Windows 验收反馈；无实质变化立即简报。
 - Windows 接续：PR #1 分支的 `README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；次日数媒任务只读本检查点，避免并发写入。
+
+
+## 2026-11-05 轻量增量检查
+- 开始：2026-11-05 20:30:48（北京时间，运行上下文）；检查完成及最终结束时间以 GitHub 提交和任务记录为准。
+- 额度/模型：无法可靠读取 5 小时/每周剩余额度或指定专用模型；采用保守轻量模式，无额外轮询。
+- main 最新提交：`9cc55ceadd4f30f3b43dd2304e6a7187f070b014`（2026-11-04 15:43:46 UTC），较上次有两条数媒相关提交（Manim/FFmpeg、AI 视频技能）；未发现这些提交直接修改 AE 功能的证据，避免与数媒任务并发写入。
+- 三个已跟踪上游 HEAD 未变：`aedev-tools/adobe-agent-skills`=`00f131ee5481cd597e6f63f997d92c6fe26586a0`；`docsforadobe/after-effects-scripting-guide`=`7137a990db4bd8dc9f5869b8ca431c7dfed52bdc`；`23d1/after-effects-mcp`=`be7717314439dda29b64cbba85664f04f737543b`。
+- 本仓库开放普通 Issue：0；草稿 PR #1 仍 open、draft、未合并；本轮未独立复查 Adobe 官方发行说明，不声称官方版本状态已验证。
+- 本轮 AE 功能新增/修复/JSX/表达式/版本修改：0。只追加本检查点；独立 CHANGELOG/TODO 未修改，变更与待办仍集中于 LAST_CHECK。
+- 验证：通过 GitHub 实际读取 README、maintenance-state、LAST_CHECK、主分支最近提交、Issues、PR 和上游 HEAD；未运行 Node 或 Windows AE 实机测试，历史 23/23 模拟测试不作为本轮结果。
+- 遗留：PR #1 待审阅；Windows AE 实机验收、6 张关键静帧和 15 秒动态草稿未完成。
+- 下轮起点：以本轮 main/上游 HEAD 和本检查点为基线，只比较新增变更、Issues/PR、Adobe 官方资料及 Windows 验收证据。Windows 端读取本 PR 分支的 `README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；数媒任务只读此检查点。
