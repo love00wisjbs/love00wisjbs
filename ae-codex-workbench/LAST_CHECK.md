@@ -139,3 +139,17 @@
 - 验证：通过 GitHub 实际读取 README、maintenance-state、LAST_CHECK、主分支最近提交、Issues、PR 和上游 HEAD；未运行 Node 或 Windows AE 实机测试，历史 23/23 模拟测试不作为本轮结果。
 - 遗留：PR #1 待审阅；Windows AE 实机验收、6 张关键静帧和 15 秒动态草稿未完成。
 - 下轮起点：以本轮 main/上游 HEAD 和本检查点为基线，只比较新增变更、Issues/PR、Adobe 官方资料及 Windows 验收证据。Windows 端读取本 PR 分支的 `README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；数媒任务只读此检查点。
+
+
+## 2026-11-06 轻量增量检查
+- 开始：2026-11-06 20:30:15（北京时间，运行上下文）；检查点保存时间以本次 GitHub 提交为准；任务精确结束时间不可读取。
+- 额度/模型：无法可靠读取当前 5 小时/每周剩余额度，也无法指定专用模型；采用保守轻量范围，不额外轮询。
+- main 最近提交 HEAD：`9cc55ceadd4f30f3b43dd2304e6a7187f070b014`，与 2026-11-05 检查一致；无新 AE 功能提交。
+- 三个上游最新提交仍分别为 `aedev-tools/adobe-agent-skills@00f131ee5481cd597e6f63f997d92c6fe26586a0`、`docsforadobe/after-effects-scripting-guide@7137a990db4bd8dc9f5869b8ca431c7dfed52bdc`、`23d1/after-effects-mcp@be7717314439dda29b64cbba85664f04f737543b`，与前次记录一致。
+- Adobe 官方发行说明（https://helpx.adobe.com/after-effects/desktop/what-s-new/release-notes-after-effects.html）本轮核查仍列 2026 年 9 月版 26.5 为最新正式版，页面最后更新 2026-09-09；无本轮新版本。
+- 本仓库开放普通 Issue 0；草稿 PR #1 仍开放、未合并；本轮未发现需要立即整合的代码差异。
+- 本轮新增功能、修复、AE Skill/JSX/表达式/版本号改动：均为 0；只追加本检查点，CHANGELOG/TODO 继续由此文件统一记录。
+- 验证：实际读取 GitHub README、LAST_CHECK、主分支最近提交、PR、Issues、三个上游提交与 Adobe 官方发行说明；未运行 Node 或 Windows AE 实机测试；历史 23/23 不计入本轮。
+- 遗留：PR #1 待审阅；Windows AE 实机验收、6 张关键静帧及 15 秒动态草稿仍未完成。
+- 下轮起点：自本次检查时间及上述 HEAD 起，只核查后续提交、Issues/PR、Adobe 版本和 Windows 验收反馈；无变化简报。
+- Windows 接续：PR #1 分支中 `README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；数媒任务只读 AE 检查点，避免并发写入。
