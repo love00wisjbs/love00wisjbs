@@ -241,3 +241,16 @@
 - 遗留：PR #1 审阅；Windows AE 实机验收；6 张静帧和 15 秒动态草稿。
 - 下轮起点：以本条及上述 HEAD 为基线，只比较新提交、Issues/PR、官方资料变化与 Windows 验收反馈；无变化即简报。
 - Windows 接续：PR #1 分支 `ae-codex-workbench/README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；次日 01:45 数媒任务只读，避免并发写入。
+
+
+## 2026-11-14 轻量增量检查
+- 开始：2026-11-14 20:31:34 北京时间（运行上下文）；精确结束时间未独立获取，提交时间作为保存证据。
+- 额度/模型：无法可靠读取五小时及每周剩余额度，无法确认指定模型切换；采用保守轻量模式，不轮询、不推测刷新。
+- main 最新提交：`9cc55ceadd4f30f3b43dd2304e6a7187f070b014`，与 11 月 13 日一致；未发现新的主分支提交。
+- 三个上游最新 HEAD 均与上轮一致：`aedev-tools/adobe-agent-skills@00f131ee5481cd597e6f63f997d92c6fe26586a0`、`docsforadobe/after-effects-scripting-guide@7137a990db4bd8dc9f5869b8ca431c7dfed52bdc`、`23d1/after-effects-mcp@be7717314439dda29b64cbba85664f04f737543b`。
+- 本仓库开放普通 Issue：0；PR #1 仍 open/draft，未合并，检查时 head `3fb9c23dbf3b8e8cb76c721575fdd119a549b4b7`。本轮未独立核查 PR 评论/审阅及 Adobe 官方发行说明，不断言这些项目无变化。
+- 新增功能、修复、AE Skill/JSX/表达式/版本号变更：0；仅追加本检查点。CHANGELOG/TODO 仍集中在 LAST_CHECK；maintenance-state.json 的 checkedAtUtc 为历史快照，不代表本轮。
+- 验证：实际读取 PR 分支 README、LAST_CHECK、maintenance-state.json、仓库权限与 PR 元数据，核对 main 最近提交、开放普通 Issues 及三个上游最新提交；未运行 Node 或 Windows AE 实机测试，历史 23/23 不计入本轮。
+- 遗留：PR #1 审阅、Windows AE 实机验收、6 张关键静帧与 15 秒动态草稿。
+- 下轮起点：以本条及上述 HEAD 为基线，只比较新提交、Issues/PR、官方资料与 Windows 验收反馈；无实质变化不制造工作。
+- Windows 接续：PR #1 分支 `ae-codex-workbench/README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md`；次日 01:45 数媒任务只读 AE 检查点，避免并发写入。
