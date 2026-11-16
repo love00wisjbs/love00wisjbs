@@ -266,3 +266,14 @@
 - 验证：实际读取 PR 分支 README、LAST_CHECK、maintenance-state.json，核对 main 和三个上游最近提交、Issues/PR 搜索；未运行 Node 或 Windows AE 实机测试，历史 23/23 不计入本轮。
 - 遗留：核实 PR #1 实际状态与审阅；Windows AE 实机验收；6 张关键静帧及 15 秒动态草稿。
 - 下轮起点：以本条及上述 HEAD 为基线，仅比较新提交、官方更新、PR #1 实际状态及 Windows 验收反馈。Windows 端切换本分支阅读 README、docs/windows-handoff.md、docs/verification.md、LAST_CHECK.md；次日 01:45 数媒任务只读本检查点，避免并发写入。
+
+
+## 2026-11-16 轻量增量检查
+- 开始：2026-11-16 20:35:12 北京时间（运行上下文）；结束：保存后结束，精确结束时间不可独立取得。
+- 额度/模型：无法可靠读取五小时及周剩余额度，未确认专用模型切换；保守轻量模式。
+- main 最近 HEAD `9cc55ceadd4f30f3b43dd2304e6a7187f070b014`，与 11 月 15 日基线一致；三个上游最新提交仍分别为 `00f131ee5481cd597e6f63f997d92c6fe26586a0`、`7137a990db4bd8dc9f5869b8ca431c7dfed52bdc`、`be7717314439dda29b64cbba85664f04f737543b`。
+- 直接读取 PR #1 issue 元数据确认 state=open、closed_at=null、comments=0；解决昨日搜索为空的歧义。此接口未直接提供 draft/merge 状态，故不声称已独立核实草稿属性或审阅结果。
+- 新增功能/修复/AE 代码/版本修改均为 0；仅追加检查点。CHANGELOG/TODO 继续集中在本文件；maintenance-state.json 为旧快照。未独立核查 Adobe 官方发行说明及 PR 审阅。
+- 验证：实际读取 LAST_CHECK、maintenance-state.json、主仓库及三个上游最近提交、PR #1 元数据；未运行 Node 或 Windows AE 实机测试，历史 23/23 不计入本轮。
+- 遗留：PR #1 审阅与合并决策、Windows AE 实机验收、6 张静帧及 15 秒动态草稿。
+- 下轮：比较上述 HEAD、PR 审阅反馈和官方资料变化；无实质变化立即简报。Windows 从本分支 `ae-codex-workbench/README.md`、`docs/windows-handoff.md`、`docs/verification.md`、`LAST_CHECK.md` 接续；次日 01:45 数媒任务只读检查点。
